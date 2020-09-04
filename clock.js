@@ -13,7 +13,7 @@ function getTime() {
 
 function init() {
   getTime();
-  setInterval(getTime, 1000);
+  setInterval(getTime, 1000); //1초마다 get time 함수를 호출
 }
 
 init();
